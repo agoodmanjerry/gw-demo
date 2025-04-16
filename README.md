@@ -9,3 +9,9 @@ To install the environment, please follow the instructions:
 3. ```mamba env create -y -f environment.yaml```
 
 Then load the environment and run the codes in the jupyter notebook.
+
+## Other References
+- LVK Open Data Workshop: [https://github.com/gw-odw/odw](https://github.com/gw-odw/odw)
+- LIGO [https://www.ligo.caltech.edu/](https://www.ligo.caltech.edu/)
+- Virgo [https://www.virgo-gw.eu/](https://www.virgo-gw.eu/)
+- KAGRA [https://gwcenter.icrr.u-tokyo.ac.jp/en/](https://gwcenter.icrr.u-tokyo.ac.jp/en/)
