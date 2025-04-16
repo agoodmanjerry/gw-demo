@@ -1,0 +1,32 @@
+\documentclass[12pt]{article}
+\usepackage{inputenc}
+\usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{fancyvrb}
+\usepackage{listings}
+
+\graphicspath{{./image/}}
+
+\newcommand{\home}{$\sim$}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\title{Software Setup}
+\author{Chia-Jui Chou}
+\date{}
+\maketitle
+\tableofcontents
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{sections/installing_wsl}
+\input{sections/python_environment}
+
+\end{document}
